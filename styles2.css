@@ -1,0 +1,715 @@
+/* styles1.css */
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+.homepage_header {
+    margin-left: 200px; 
+    padding: 20px; 
+    
+}
+
+/* ... (other CSS rules) ... */
+.homepage_intro {
+    background-color: #117aaf; /* Change the background color */
+    margin-left: 350px; /* Adjusted margin-left */
+    width: 160px; /* Adjusted width */
+    height: 50px; /* Adjusted height */
+}
+
+.navbar {
+    font-family: "Verdana", sans-serif;
+    width: 60px;
+    height: 100%;
+    background-color: #1580eb;
+    position: fixed;
+    overflow-x: hidden;
+    transition: width 0.2s;
+}
+
+.navbar:hover {
+    width: 200px;
+}
+
+.navbar-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    color: #fff;
+}
+
+.navbar-icon {
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.navbar-title {
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+.navbar-links {
+    list-style-type: none;
+    padding: 0;
+}
+
+.navbar-links li {
+    padding: 10px;
+    text-align: center;
+}
+
+.navbar-links a {
+    text-decoration: none;
+    color: #fff;
+    display: block;
+}
+
+.navbar-links a:hover {
+    background-color: #444;
+}
+
+#homepage_image {
+    position: absolute;
+    top: 100px;
+    left: 150px;
+    width: 320px;
+    height: 400px;
+
+    
+}
+
+.footer {
+    position: fixed;
+    margin-top: 500px;
+    bottom: 0;
+    width: 100%;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1px;
+}
+.homepage_para {
+    font-family: "Verdana", sans-serif; /* Change the font family */
+    font-size: 90%; /* Increase the font size */
+    margin-left: 500px; /* Adjusted margin-left */
+    margin-top: 20px;
+    width: 800px; /* Adjusted width */
+    background-color: #ddd; /* Different background color */
+    padding: 15px; /* Adjusted padding */
+    border-radius: 10px; /* Added border-radius for rounded corners */
+}
+
+.homepage_para p {
+    margin: 0;
+    padding: 100px; /* Adjusted padding */
+    font-size: 18px; /* Increase the font size */
+    color: #555; /* Different text color */
+    line-height: 1.5;
+    border-bottom: 1px solid #ccc; /* Lighter horizontal line */
+}
+
+.homepage_para:hover {
+    transform: scale(1.01);
+}
+.Connect_links{
+
+    top: 200px;
+    left: 200px;
+    display: flex;
+    justify-content: space-around; /* Evenly space the logos */
+    align-items: center; /* Center the logos vertically */
+    width: 600px; /* Adjust the container width as needed */
+    
+}
+
+.tamulink{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 20px;
+    position: absolute;
+    top: 182px;
+    left: 672px;
+    
+}
+.Connect_links{
+    position: absolute;
+    top: auto;
+    left: 200px;
+    display: flex;
+    justify-content: space-around; /* Evenly space the logos */
+    align-items: center; /* Center the logos vertically */
+    width: 600px; /* Adjust the container width as needed */
+    
+}
+
+
+/* Style the LinkedIn logo */
+#linkedin-logo img {
+    width: 100px; /* Adjust the size as needed */
+    height: auto;
+    border: none;
+    transition: transform 0.2s;
+    
+}
+
+/* Add a hover effect (optional) */
+#linkedin-logo img:hover {
+    transform: scale(1.1);
+}
+
+#discord-logo img {
+    width: 100px; /* Adjust the size as needed */
+    height: auto;
+    border: none;
+    transition: transform 0.2s;
+}
+
+/* Add a hover effect (optional) */
+#discord-logo img:hover {
+    transform: scale(1.1);
+}   
+
+
+#insta-logo img {
+    width: 100px; /* Adjust the size as needed */
+    height: auto;
+    border: none;
+    transition: transform 0.2s;
+    
+}
+
+/* Add a hover effect (optional) */
+#insta-logo img:hover {
+    transform: scale(1.1);
+}   
+
+#git-logo img {
+    width: 100px; /* Adjust the size as needed */
+    height: auto;
+    border: none;
+    transition: transform 0.2s;
+    
+}
+
+/* Add a hover effect (optional) */
+#git-logo img:hover {
+    transform: scale(1.1);
+}   
+
+
+.technical_para {
+    font-family: "Verdana", sans-serif; /* Change the font family */
+    font-size: 90%; /* Increase the font size */
+    margin-left: 320px; /* Adjusted margin-left */
+    margin-right: 20px; /* Added margin-right */
+    width: 800px; /* Adjusted width */
+    background-color: #ddd; /* Different background color */
+    padding: 15px; /* Adjusted padding */
+    border-radius: 10px; /* Added border-radius for rounded corners */
+}
+.technical_para p{
+    margin: 0;
+    padding: 5px 0;
+    font-size: 16px;
+    color: #333;
+    line-height: 1.2;
+    border-bottom: 1px solid #ddd; /* Add a horizontal line below each line of text */
+}
+.technical_para:hover {
+    transform: scale(1.01);
+}
+
+.technical_header{
+    margin-left: 200px; 
+    padding: 20px;
+}
+
+
+.tech_p1_desc {
+    font-family: "Arial", sans-serif; /* Change the font family */
+    font-size: 60%; /* Increase the font size */
+    width: 600px; /* Adjusted width */
+    height: 220px; /* Adjusted height */
+    background-color: #ddd; /* Different background color */
+    padding: 15px; /* Adjusted padding */
+    position: absolute;
+    top: 420px; /* Adjusted top position */
+    left: 600px; /* Adjusted left position */
+    border-radius: 10px; /* Added border-radius for rounded corners */
+}
+
+.tech_p1_desc p {
+    margin: 0;
+    padding: 10px 0; /* Adjusted padding */
+    font-size: 18px; /* Increase the font size */
+    color: #555; /* Different text color */
+    line-height: 1.5;
+    border-bottom: 1px solid #ccc; /* Lighter horizontal line */
+}
+
+
+.tech_p1_desc:hover {
+    transform: scale(1.01);
+}
+
+#proj1_images{
+    width: 240px;
+    height:240px;
+    position: absolute;
+    top: 420px;
+    left: 350px;
+    border-bottom: 2px solid #ddd; 
+    border-top: 2px solid #ddd; 
+    border-left: 2px solid #ddd; 
+    border-right: 2px solid #ddd; 
+}
+#proj1_images:hover{
+    transform: scale(1.01);
+}
+
+
+
+
+
+
+
+.tech_p2_desc{
+    font-family: "Arial", sans-serif; /* Change the font family */
+    font-size: 60%; /* Increase the font size */
+    width: 600px; /* Adjusted width */
+    height: 220px; /* Adjusted height */
+    background-color: #ddd; /* Different background color */
+    padding: 15px; /* Adjusted padding */
+    position: absolute;
+    top: 700px; /* Adjusted top position */
+    left: 600px; /* Adjusted left position */
+    border-radius: 10px; /* Added border-radius for rounded corners */
+    
+}
+.tech_p2_desc p {
+    margin: 0;
+    padding: 10px 0; /* Adjusted padding */
+    font-size: 18px; /* Increase the font size */
+    color: #555; /* Different text color */
+    line-height: 1.5;
+    border-bottom: 1px solid #ccc; /* Lighter horizontal line */
+}
+
+.tech_p2_desc:hover {
+    transform: scale(1.01);
+}
+
+
+#proj2_images{
+    width: 240px;
+    height:240px;
+    position: absolute;
+    top: 700px;
+    right: 860px;
+    border-bottom: 2px solid #ddd; 
+    border-top: 2px solid #ddd; 
+    border-left: 2px solid #ddd; 
+    border-right: 2px solid #ddd; 
+}
+#proj2_images:hover{
+    transform: scale(1.01);
+}
+
+
+.tech_p3_desc {
+    font-family: "Arial", sans-serif; /* Change the font family */
+    font-size: 60%; /* Increase the font size */
+    width: 600px; /* Adjusted width */
+    height: 220px; /* Adjusted height */
+    background-color: #ddd; /* Different background color */
+    padding: 15px; /* Adjusted padding */
+    position: absolute;
+    top: 1000px; /* Adjusted top position */
+    left: 600px; /* Adjusted left position */
+    border-radius: 10px; /* Added border-radius for rounded corners */
+}
+
+.tech_p3_desc p {
+    margin: 0;
+    padding: 5px 0;
+    font-size: 16px;
+    color: #333;
+    line-height: 1.2;
+    border-bottom: 1px solid #ddd; /* Add a horizontal line below each line of text */
+}
+
+.tech_p3_desc:hover {
+    transform: scale(1.01);
+}
+
+#proj3_images{
+    width: 240px;
+    height:240px;
+    position: absolute;
+    top: 1000px;
+    left: 350px;
+    border-bottom: 2px solid #ddd; 
+    border-top: 2px solid #ddd; 
+    border-left: 2px solid #ddd; 
+    border-right: 2px solid #ddd; 
+}
+#proj3_images:hover{
+    transform: scale(1.01);
+}
+
+
+.seamlink{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 200%;
+}
+
+.dicelink{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 200%;
+}
+
+
+
+/* Style for the AI Content */
+/* Style for AI Hero Section */
+.ai-hero {
+    background-image: url('ai-hero-background.jpg');
+    background-size: cover;
+    color: #000000;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.ai-hero h1 {
+    font-size: 36px;
+}
+
+.ai-hero p {
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.btn-primary {
+    display: inline-block;
+    padding: 15px 30px;
+    margin-top: 30px;
+    background-color: #0077b6;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #055c91;
+}
+
+/* Style for AI Features Section */
+.ai-features {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 80px 0;
+}
+
+.ai-feature {
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.ai-feature:hover {
+    transform: translateY(-5px);
+}
+
+.ai-feature img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+/* Style for AI Video Section */
+.ai-video {
+    text-align: center;
+    margin: 50px 0;
+}
+
+/* Style for AI CTA Section */
+.ai-cta {
+    background-color: #f5f5f5;
+    text-align: center;
+    padding: 80px 0;
+}
+
+.ai-cta h2 {
+    font-size: 28px;
+    color: #333;
+}
+
+.ai-cta p {
+    font-size: 18px;
+    color: #666;
+    margin-top: 20px;
+}
+
+.btn-secondary {
+    display: inline-block;
+    padding: 15px 30px;
+    margin-top: 30px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.btn-secondary:hover {
+    background-color: #555;
+}
+
+.AI_content {
+    margin-left: 20px;
+    padding: 20px; /* Adjust padding for inner content */
+    background-color: #f5f5f5;
+    border: 1px solid #ddd;
+    margin: 20px;
+    border-radius: 5px;
+}
+
+
+.pdf-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh; /* Adjust the height as needed */
+}
+
+/* Style for the embedded PDF */
+.pdf-container object {
+    width: 80%; /* Adjust the width as needed */
+    height: 80%; /* Adjust the height as needed */
+}
+
+#toggle-styles {
+    position:absolute;
+    right:80%;  
+    padding: 10px 20px;
+    background-color: #0077b6;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#toggle-styles:hover {
+    background-color: #055c91;
+}
+
+.service_intro{
+
+    font-family: "Arial", sans-serif; /* Change the font family */
+    font-size: 80%; /* Increase the font size */
+    top: 100px;
+    left: 200px;
+    background-color: #ddd; /* Different background color */
+    padding: 15px; /* Adjusted padding */
+    position: absolute;
+    width: 800px;
+    height: 200px;
+    border-radius: 10px; /* Added border-radius for rounded corners */
+    
+}
+.service_intro p {
+    margin: 0;
+    padding: 10px 0; /* Adjusted padding */
+    font-size: 18px; /* Increase the font size */
+    color: #555; /* Different text color */
+    line-height: 1.5;
+    border-bottom: 1px solid #ccc; /* Lighter horizontal line */
+}
+
+.food_bank{
+    font-family: "Arial", sans-serif; /* Change the font family */
+    font-size: 60%; /* Increase the font size */
+    width: 800px;
+    height: 200px;
+    background-color: #ddd; /* Different background color */
+    padding: 15px; /* Adjusted padding */
+    position: absolute;
+    top: 350px;
+    left: 500px;
+    border-radius: 10px; /* Added border-radius for rounded corners */
+    
+}
+.food_bank p {
+    margin: 0;
+    padding: 10px 0; /* Adjusted padding */
+    font-size: 18px; /* Increase the font size */
+    color: #555; /* Different text color */
+    line-height: 1.5;
+    border-bottom: 1px solid #ccc; /* Lighter horizontal line */
+}
+
+.Marathons{
+    font-family: "Arial", sans-serif; /* Change the font family */
+    font-size: 60%; /* Increase the font size */
+    top: 600px;
+    left: 200px;
+    background-color: #ddd; /* Different background color */
+    padding: 15px; /* Adjusted padding */
+    position: absolute;
+    width: 800px;
+    height: 200px;
+    border-radius: 10px; /* Added border-radius for rounded corners */
+    
+}
+.Marathons p {
+    margin: 0;
+    padding: 10px 0; /* Adjusted padding */
+    font-size: 18px; /* Increase the font size */
+    color: #555; /* Different text color */
+    line-height: 1.5;
+    border-bottom: 1px solid #ccc; /* Lighter horizontal line */
+}
+.Animal_shelter{
+    font-family: "Arial", sans-serif; /* Change the font family */
+    font-size: 60%; /* Increase the font size */
+    top: 850px;
+    left: 500px;
+    background-color: #ddd; /* Different background color */
+    padding: 15px; /* Adjusted padding */
+    position: absolute;
+    width: 800px;
+    height: 200px;
+    border-radius: 10px; /* Added border-radius for rounded corners */
+    
+}
+.Animal_shelter p {
+    margin: 0;
+    padding: 10px 0; /* Adjusted padding */
+    font-size: 18px; /* Increase the font size */
+    color: #555; /* Different text color */
+    line-height: 1.5;
+    border-bottom: 1px solid #ccc; /* Lighter horizontal line */
+}
+.Cleanups{
+    font-family: "Arial", sans-serif; /* Change the font family */
+    font-size: 60%; /* Increase the font size */
+    top: 1100px;
+    left: 200px;
+    background-color: #ddd; /* Different background color */
+    padding: 15px; /* Adjusted padding */
+    position: absolute;
+    width: 800px;
+    height: 200px;
+    border-radius: 10px; /* Added border-radius for rounded corners */
+    
+}
+.Cleanup p {
+    margin: 0;
+    padding: 10px 0; /* Adjusted padding */
+    font-size: 18px; /* Increase the font size */
+    color: #555; /* Different text color */
+    line-height: 1.5;
+    border-bottom: 1px solid #ccc; /* Lighter horizontal line */
+}
+
+#service_img1{
+    margin-top: 150px;
+    margin-left:1100px;
+    width: 300px;
+    height: 150px;
+}
+#service_img2{
+    margin-top: 60px;
+    margin-left:100px;
+    width: 300px;
+}
+
+.qual_skill{
+    font-family: "Arial", sans-serif; /* Change the font family */
+    font-size: 60%; /* Increase the font size */
+    background-color: #ddd; /* Different background color */
+    padding: 15px; /* Adjusted padding */
+    position: absolute;
+    width: 550px;
+    height: 300px;
+    border-radius: 10px; /* Added border-radius for rounded corners */
+    top: auto;
+    left: 150px;
+}
+
+.qual_skill p {
+    margin: 0;
+    padding: 10px 0; /* Adjusted padding */
+    font-size: 18px; /* Increase the font size */
+    color: #555; /* Different text color */
+    line-height: 1.5;
+    border-bottom: 1px solid #ccc; /* Lighter horizontal line */
+}
+
+.qual_interests{
+    font-family: "Arial", sans-serif; /* Change the font family */
+    font-size: 60%; /* Increase the font size */
+    background-color: #ddd; /* Different background color */
+    padding: 15px; /* Adjusted padding */
+    position: absolute;
+    width: 550px;
+    height: 300px;
+    border-radius: 10px; /* Added border-radius for rounded corners */
+    top: auto;
+    left: 750px;
+}
+
+.qual_interests p {
+    margin: 0;
+    padding: 10px 0; /* Adjusted padding */
+    font-size: 18px; /* Increase the font size */
+    color: #555; /* Different text color */
+    line-height: 1.5;
+    border-bottom: 1px solid #ccc; /* Lighter horizontal line */
+}
+
+.Qual_links{
+    position: absolute;
+    top: 100px;
+    left: 800px;
+    display: flex;
+    justify-content: space-around; /* Evenly space the logos */
+    align-items: center; /* Center the logos vertically */
+    width: 600px; /* Adjust the container width as needed */
+    }   
+
+    #powerbi-logo{
+        width: 100px; /* Adjust the size as needed */
+    height: auto;
+    border: none;
+    transition: transform 0.2s;
+    }
+    #excel-logo{
+        width: 100px; /* Adjust the size as needed */
+    height: auto;
+    border: none;
+    transition: transform 0.2s;
+    }
+    #c-logo{
+        width: 100px; /* Adjust the size as needed */
+    height: auto;
+    border: none;
+    transition: transform 0.2s;
+    }
+    #python-logo{
+        width: 100px; /* Adjust the size as needed */
+    height: auto;
+    border: none;
+    transition: transform 0.2s;
+    }
